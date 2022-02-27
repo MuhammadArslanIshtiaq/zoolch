@@ -1,0 +1,49 @@
+// Include any default variable overrides here (though functions won't be available)
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1272px,
+);
+
+$body-bg: #fff;
+
+$body-color: #143349;
+
+$white: #fff;
+$gray: #737373;
+$light: #f6f6f6;
+
+$primary: #a52226;
+$secondary: #094397;
+$danger: #ff4136;
+$dark: #143349;
+$success: #3bb84c;
+$warning: #e9af36;
+$info: #ff8000;
+$black: #000000;
+
+$theme-colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'danger': $danger,
+  'success': $success,
+  'warning': $warning,
+  'info': $info,
+  'light': $light,
+  'dark': $dark,
+  'black': $black,
+  'gray': $gray,
+);
+
+$form-check-input-checked-bg-color: $primary;
+$dropdown-link-hover-bg: $white;
+$dropdown-link-active-bg: $primary;
+$dropdown-link-hover-color: $primary;
+
+$table-hover-bg-factor: 1;
+$table-hover-bg: rgba($white, $table-hover-bg-factor);
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
