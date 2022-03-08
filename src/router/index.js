@@ -15,6 +15,11 @@ const routesOptions = [
     componentPath: 'About',
   },
   {
+    path: '/contact',
+    name: 'Contact',
+    componentPath: 'Contact',
+  },
+  {
     path: '/services',
     name: 'Services',
     componentPath: 'Services',

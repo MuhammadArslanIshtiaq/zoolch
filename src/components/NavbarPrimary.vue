@@ -1,7 +1,13 @@
 <template>
   <nav
     id="nav"
-    class="navbar navbar-expand-lg navbar-light position-absolute fixed-top top-20 px-3"
+    class="
+      navbar navbar-expand-lg navbar-light
+      position-absolute
+      fixed-top
+      top-20
+      px-3
+    "
   >
     <div class="container bg-white rounded-xl p-xl-3">
       <router-link to="/" class="navbar-brand me-auto">
@@ -62,7 +68,7 @@
               <router-link
                 title="CONTACT US"
                 to="/contact"
-                class="btn btn-primary"
+                class="btn btn-primary text-white"
               >
                 CONTACT US
               </router-link>
